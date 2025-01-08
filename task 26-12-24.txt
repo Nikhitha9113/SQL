@@ -1,0 +1,28 @@
+"Managing an Online Store's Inventory System"
+
+Products:
+
+ProductID (INT)
+ProductName (VARCHAR)
+Category (VARCHAR)
+Price (DECIMAL)
+StockQuantity (INT)
+Orders:
+
+OrderID (INT)
+OrderDate (DATE)
+CustomerID (INT)
+TotalAmount (DECIMAL)
+OrderDetails:
+
+OrderDetailID (INT)
+OrderID (INT)
+ProductID (INT)
+Quantity (INT)
+Price (DECIMAL)
+
+Insert New Product: Write a query to insert a new product into the Products table.
+Update Stock Quantity: Update the stock quantity of a product after an order is placed.
+Delete Out-of-Stock Products: Write a query to delete products from the Products table that have a stock quantity of zero.
+Calculate Total Order Value: Write a query to calculate the total order value for a specific order using the Order Details table.
+Get Top 5 Bestselling Products: Write a query to find the top 5 bestselling products based on the quantity sold in all orders.
